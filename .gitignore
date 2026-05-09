@@ -8,6 +8,10 @@ wheels/
 
 # Folders
 data/
+.ruff_cache/
 
 # Virtual environments
 .venv
+
+# Secrets
+.env
