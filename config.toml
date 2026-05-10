@@ -1,8 +1,14 @@
 [finance_api_params]
-period = "1y"      # Time period for which data is being fetched
-tickers = ["AAPL"]
-
-[r2_params]
-bucket = "stockpulse"
-storage_class = "STANDARD"
-max_file_size_mb = 500
+period = "1y" # Time period for which data is being fetched
+tickers = [
+    "AAPL",
+    "LLY",
+    "JPM",
+    "AMZN",
+    "XOM",
+    "WMT",
+    "GOOGL",
+    "CAT",
+    "LIN",
+    "NEE",
+]
